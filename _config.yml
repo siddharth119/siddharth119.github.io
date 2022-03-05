@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Siddharth Mayya"
 title_separator          : "-"
 name                     : &name "Siddharth Mayya"
-description              : &description "Post Doctoral Researcher at the University of Pennsylvania"
+description              : &description "Applied Scientist at Amazon Robotics"
 url                      : https://siddharth119.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "siddharth119/siddharth119.github.io"
@@ -80,11 +80,11 @@ analytics:
 author:
   name             : "Siddharth Mayya"
   avatar           : "headshot.jpg"
-  bio              : "Post Doctoral Researcher at the University of Pennsylvania"
-  location         : "Philadelphia, PA, USA"
+  bio              : "Applied Scientist at Amazon Robotics"
+  location         : "Cambridge, MA, USA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=WdpTN60AAAAJ&hl=en&oi=ao"
-  email            : mayya@seas.upenn.edu
+  email            : mayya.siddharth@gmail.com
   uri              :
   bitbucket        :
   codepen          :
