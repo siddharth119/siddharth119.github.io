@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Siddharth Mayya"
 title_separator          : "-"
 name                     : &name "Siddharth Mayya"
-description              : &description "Applied Scientist at Amazon Robotics"
+description              : &description "Staff Research Scientist at Chewy Robotics"
 url                      : https://siddharth119.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "siddharth119/siddharth119.github.io"
@@ -80,8 +80,8 @@ analytics:
 author:
   name             : "Siddharth Mayya"
   avatar           : "headshot.jpg"
-  bio              : "Applied Scientist at Amazon Robotics"
-  location         : "Cambridge, MA, USA"
+  bio              : "Staff Research Scientist at Chewy Robotics"
+  location         : "Somerville, MA, USA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=WdpTN60AAAAJ&hl=en&oi=ao"
   email            : mayya.siddharth@gmail.com
@@ -99,6 +99,7 @@ author:
   lastfm           :
   linkedin         :
   orcid            : "https://orcid.org/0000-0001-5168-413X"
+  substack         : "https://open.substack.com/pub/sidmayya" # Add your Substack URL here, e.g., "https://yourname.substack.com"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -124,6 +125,7 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
+  - vendor
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
@@ -169,6 +171,9 @@ kramdown:
 
 # Collections
 collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -221,6 +226,14 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
   # _portfolio
   - scope:
       path: ""
@@ -253,7 +266,7 @@ timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

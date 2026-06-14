@@ -1,26 +1,16 @@
-# main links links
+# main links
 main:
+  - title: "About"
+    url: /
 
-  - title: "Research"
-    url: /research/
-  # - title: "Publications"
-  #   url: /publications/
+  - title: "Projects"
+    url: /projects/
 
-  #  - title: "Talks"
-  #    url: /talks/
+  - title: "Habitat Robotics"
+    url: /habitat/
 
-
-  # - title: "Teaching"
-  #   url: /teaching/
-
-  # - title: "Portfolio"
-  #   url: /portfolio/
-
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  - title: "Blogs"
+    url: /blogs/
 
   - title: "CV"
     url: /files/sid_mayya_cv.pdf
-
-  # - title: "Guide"
-  #   url: /markdown/

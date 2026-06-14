@@ -1,0 +1,25 @@
+{% assign project = include.project %}
+<article class="project-card">
+  {% if project.image %}
+  <div class="project-image">
+    <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+  </div>
+  {% endif %}
+  <div class="project-content">
+    <h3 class="project-title">
+      {% if project.url %}
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      {% else %}
+        {{ project.title }}
+      {% endif %}
+    </h3>
+    <p class="project-excerpt">{{ project.excerpt | strip_html | truncate: 160 }}</p>
+    {% if project.tags %}
+    <div class="project-tags">
+      {% for tag in project.tags %}
+        <span class="project-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</article>

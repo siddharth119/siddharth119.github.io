@@ -2,3 +2,4 @@ _site/
 todo.txt
 *.lock
 
+vendor/
