@@ -14,7 +14,7 @@ I'm currently a Staff Research Scientist at Chewy Robotics, building fleet orche
 
 I'm also building [Habitat Robotics](https://habitatrobotics.ai), where we develop sensing and AI systems to support wildlife conservation and ecological restoration. I'm passionate about deploying technology that amplifies the impact of conservation efforts by enabling ecologists to collect data more efficiently and providing actionable insights.
 
-My research centers on scalable coordination and decision-making for multi-agent autonomous systems, including topics such as hierarchical task allocation, distributed optimization, multi-robot planning, and integrating machine learning with classical robotics methods. This work has been published in IEEE Transactions on Robotics, RSS, ICRA, and IROS. More details on current and past projects [here](research).
+My research centers on scalable coordination and decision-making for multi-agent autonomous systems, including topics such as hierarchical task allocation, distributed optimization, multi-robot planning, and integrating machine learning with classical robotics methods. This work has been published in IEEE Transactions on Robotics, RSS, ICRA, and IROS. More details on current and past projects [here](/projects/).
 
 Previously, I was an Applied Scientist at Amazon Robotics (reinforcement learning for dense robotic manipulation) and a postdoctoral researcher at UPenn's GRASP Lab with Dr. [Vijay Kumar](https://www.kumarrobotics.org/). I was also a founding member of the [Robotarium](https://www.robotarium.gatech.edu/), the world's first open-access swarm robotics testbed, now serving users from all continents except Antarctica.
 
